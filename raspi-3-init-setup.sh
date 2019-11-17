@@ -9,6 +9,9 @@ sudo apt-get install vim
 # Install Go
 sudo apt-get install golang
 
+# Install Rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
 # Install Docker
 curl -sSL get.docker.com | sh && \
 sudo usermod pi -aG docker && \
