@@ -4,6 +4,7 @@ sudo apt-get dist-upgrade
 
 # Install dev stuff
 sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+sudo apt-get install vim
 
 # Install Go
 sudo apt-get install golang
